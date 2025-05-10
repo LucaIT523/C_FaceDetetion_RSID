@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="reflib">
+      <UniqueIdentifier>{bc54b032-a409-42cd-9cd1-5e36a3fc1656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reflib\rapidjson">
+      <UniqueIdentifier>{db629abb-87a4-4ea7-b2e0-1875593da7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reflib\rsid">
+      <UniqueIdentifier>{34e9174a-9974-44d3-8072-0449858ef424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reflib\rsid\include">
+      <UniqueIdentifier>{b5a6320e-e7aa-4004-9594-19b3311d5044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reflib\rsid\include\RealSenseID">
+      <UniqueIdentifier>{a6bebe2f-5359-474c-90f6-30ce4595e458}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RSID_C_Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceJSONDB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RSIDWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reflib\rapidjson\allocators.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\cursorstreamwrapper.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\document.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\encodedstream.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\encodings.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\filereadstream.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\filewritestream.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\fwd.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\istreamwrapper.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\memorybuffer.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\memorystream.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\ostreamwrapper.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\pointer.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\prettywriter.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\rapidjson.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\reader.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\schema.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\stream.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\stringbuffer.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\uri.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rapidjson\writer.h">
+      <Filter>reflib\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\AndroidSerialConfig.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\AuthenticateStatus.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\AuthenticationCallback.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\AuthFaceprintsExtractionCallback.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\DeviceConfig.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\DeviceController.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\DiscoverDevices.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\EnrollFaceprintsExtractionCallback.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\EnrollmentCallback.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\EnrollStatus.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\FaceAuthenticator.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\FacePose.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\Faceprints.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\FaceprintsDefines.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\FaceRect.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\FwUpdater.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\Logging.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\MatcherDefines.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\Preview.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\RealSenseIDExports.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\SerialConfig.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\SignatureCallback.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\Status.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="reflib\rsid\include\RealSenseID\Version.h">
+      <Filter>reflib\rsid\include\RealSenseID</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceJSONDB.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RSIDWrapper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
